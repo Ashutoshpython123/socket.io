@@ -16,5 +16,5 @@ phases:
       - aws cloudformation package --template $INPUT_FILE --s3-bucket $S3_BUCKET --output-template post-saml.yaml
 artifacts:
      files:
-    - template-export.yml
+    - template.yml
     - template-configuration.json
